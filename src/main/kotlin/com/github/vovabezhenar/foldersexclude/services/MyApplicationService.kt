@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.vovabezhenar.foldersexclude.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.vovabezhenar.foldersexclude.MyBundle
 
 class MyApplicationService {
 
