@@ -16,9 +16,15 @@
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 <!-- Plugin description -->
-Storybook Exclude Plugin.
-Monorepo with a big amount of modules that contains storybooks generate too much files under 'storybook-static' folder that force Intellij IDEA indexing to rerun on each storybook build.
-With this plugin you can mark the all storybook-static folders in project as excluded. That reduces overall indexing time and improves Intellij IDEA responsibility.
+
+Storybook Exclude plugin can be used to exclude the all 'storybook-static' folders in the project.
+
+After build-storybook run in monorepo with storybooks - for each module a lot of files are generated under storybook-static folder.
+That forces Intellij IDEA to rerun indexing.
+
+With this plugin you can mark the all 'storybook-static' folders in the project as excluded.
+That reduces overall indexing time and improves Intellij IDEA responsibility.
+
 <!-- Plugin description end -->
 
 ## Installation

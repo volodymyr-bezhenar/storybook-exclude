@@ -19,7 +19,7 @@ import org.jetbrains.annotations.NotNull;
 public class ExcludeAction extends AnAction {
 
     public ExcludeAction() {
-        super("_Storybook Exclude");
+        super("_Exclude 'storybook-static'");
     }
 
     @Override
