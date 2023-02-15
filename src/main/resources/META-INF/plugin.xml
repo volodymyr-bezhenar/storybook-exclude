@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.vovabezhenar.foldersexclude</id>
-    <name>IntelliJ Platform Plugin folders-exclude</name>
-    <vendor>vova-bezhenar</vendor>
+    <id>com.github.vovabezhenar.storybookexclude</id>
+    <name>Storybook Exclude</name>
+    <vendor>Volodymyr Bezhenar</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.vovabezhenar.foldersexclude.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.vovabezhenar.foldersexclude.services.MyProjectService"/>
+        <!-- Add your extensions here -->
     </extensions>
 
-    <applicationListeners>
-        <listener class="com.github.vovabezhenar.foldersexclude.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
+    <application-components>
+        <component>
+            <implementation-class>com.github.vovabezhenar.storybookexclude.StorybookExcludeRegistration</implementation-class>
+        </component>
+    </application-components>
 </idea-plugin>

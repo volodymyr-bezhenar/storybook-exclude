@@ -1,6 +1,6 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# folders-exclude Changelog
+# Storybook Exclude Changelog
 
 ## [Unreleased]
 ### Added

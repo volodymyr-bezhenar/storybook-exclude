@@ -1,1 +1,1 @@
-rootProject.name = "folders-exclude"
+rootProject.name = "storybook-exclude"
