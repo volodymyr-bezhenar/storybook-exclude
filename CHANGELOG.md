@@ -3,6 +3,8 @@
 # Storybook Exclude Changelog
 
 ## [Unreleased]
+
+## [0.0.2]
 ### Changed
 - Set minimal IDEA version to 2021.1
 
